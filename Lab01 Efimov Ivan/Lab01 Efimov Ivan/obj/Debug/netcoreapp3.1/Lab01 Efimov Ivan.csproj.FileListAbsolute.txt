@@ -1,0 +1,13 @@
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.exe
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.deps.json
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.runtimeconfig.json
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.runtimeconfig.dev.json
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.dll
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\bin\Debug\netcoreapp3.1\Lab01 Efimov Ivan.pdb
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.csprojAssemblyReference.cache
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.AssemblyInfoInputs.cache
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.AssemblyInfo.cs
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.csproj.CoreCompileInputs.cache
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.dll
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.pdb
+D:\Programm proects\Lab01 Efimov Ivan\Lab01 Efimov Ivan\obj\Debug\netcoreapp3.1\Lab01 Efimov Ivan.genruntimeconfig.cache
