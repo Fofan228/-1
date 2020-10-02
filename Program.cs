@@ -1,60 +1,33 @@
-﻿using Microsoft.VisualBasic;
-using System;
-using System.Diagnostics.CodeAnalysis;
+﻿using System;
 
-namespace Lab01_Efimov_Ivan
+namespace Laba03
 {
     class Program
     {
+        static double Fcube(double x)
+            {
+            double y = x*x*x;
+            return y;
+            }
+
         static void Main(string[] args)
         {
-            int a;
-            DateTime now = DateTime.Now;
-            Console.WriteLine("Здравствуйте!");
+            Console.WriteLine("Здравствуйте! Введите значение, на которое хотите увеличить x :");
+            int step = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Введите ваше имя: ");
-            string name = Console.ReadLine();
+            Console.WriteLine("Введите начальную координату x :");
+            int X1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите конечную координату x :");
+            int X2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Введите номер дня вашего рождения: ");
-            string day = Console.ReadLine();
-            int d = Convert.ToInt32(day);
-            while (d > 31 | d < 1)
-                { 
-                Console.WriteLine("Данные введены некорректно, повторите попытку.");
-                day = Console.ReadLine();
-                d = Convert.ToInt32(day); 
-                }
-            Console.WriteLine("Введите номер месяца вашего рождения: ");
-               string month = Console.ReadLine();
-                int m = Convert.ToInt32(month);
-            while (m > 12 | m < 1)
-                {
-                Console.WriteLine("Данные введены некорректно, повторите попытку.");
-                month = Console.ReadLine();
-                m = Convert.ToInt32(month);
-                }
-            Console.WriteLine("Введите год вашего рождения: ");
-               string year = Console.ReadLine();
-                int y = Convert.ToInt32(year);
-            while (y > 2020 | y < 1897)
+            for (int i = X1; i <= X2; i = i + step)
             {
-                Console.WriteLine("Данные введены некорректно, Вам не может быть больше 123 лет(122 года прожила француженка Жанна Кальман, это максимально достигнутый возраст человеком на наши дни).Пожалуйста, повторите попытку.");
-                year = Console.ReadLine();
-                y = Convert.ToInt32(year);
+                double y = Fcube(i);
+                Console.WriteLine("|--------|--------|");
+                Console.WriteLine("Вывод | X | Y |");
+                Console.WriteLine("-------------------");
+                Console.WriteLine($"Вывод | {i} | {y} |");
             }
-                if (m == now.Month)
-                if (d > now.Day) { a = now.Year - y - 1; }
-                else { a = now.Year - y; }
-            else { a = now.Year - y; }
-            if (m > now.Month) { a = now.Year - y - 1; }
-
-
-            Console.WriteLine($"Привет, {name}. Ваш возраст равен: {a}. Приятно познакомиться.");
-
-            Console.ReadKey();
-
-
-
         }
     }
 }
